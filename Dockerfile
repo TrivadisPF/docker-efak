@@ -1,5 +1,5 @@
 FROM governmentpaas/curl-ssl:latest as download
-ARG version=2.0.8
+ARG version=2.1.0
 ARG download=https://codeload.github.com/smartloli/kafka-eagle-bin/tar.gz/v${version}
 WORKDIR /app
 RUN curl -fsSL -O $download 
